@@ -872,6 +872,12 @@ h1, h2, h3, h4, h5, h6 {
 
     .cuts-gallery {
         padding: 1rem 0;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+    }
+
+    .cut-image {
+        scroll-snap-align: center;
     }
 
     .cut-image {
